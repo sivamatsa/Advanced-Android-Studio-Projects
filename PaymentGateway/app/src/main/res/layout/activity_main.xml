@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment Gateway App"
+        android:textSize="25sp"
+        android:textColor="#673AB7"
+        android:layout_marginBottom="10dp"
+        android:textStyle="italic|bold"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Customer Name"
+        android:drawableRight="@drawable/ic_user"
+        android:id="@+id/cname"
+        android:textColorHint="#009688"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cprice"
+        android:hint="Enter Amount"
+        android:drawableRight="@drawable/ic_money"
+        android:textColorHint="#009688"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="PAY"
+         android:id="@+id/b1"
+         android:textSize="25sp"
+         android:background="#BBF4AE"
+         android:textColor="#DA0EFF"
+
+         />
+
+</LinearLayout>
